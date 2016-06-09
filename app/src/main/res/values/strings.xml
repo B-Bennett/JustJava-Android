@@ -1,3 +1,26 @@
-<resources>
-    <string name="app_name">Calculating an Order</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Java Anyone?</string>
+
+    <!-- Header text for the list of toppings -->
+    <string name="toppings">Toppings</string>
+    <string name="whippedCream">Whipped Cream</string>
+    <string name="Chocolate">Chocolate</string>
+    <string name="Quantity">Quantity:</string>
+    <string name="Order">Order</string>
+
+    <!-- Order summary report -->
+    <string name="thank_you">Thank You!</string>
+
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <string name="add_whipped_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%s</xliff:g></string>
+
+    <string name="add_chocolate">Add chocolate? <xliff:g id="addChocolate" example="true">%s</xliff:g></string>
+
+    <string name="quantity">Quantity: <xliff:g id="quantity" example="2">%s</xliff:g></string>
+
+    <string name="total">Total: $<xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <string name="just_java">Just Java for <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
 </resources>
